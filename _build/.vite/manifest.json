@@ -1,69 +1,91 @@
 {
-  "_components-DU66NYLl.js": {
-    "file": "assets/components-DU66NYLl.js",
+  "_components-DA4gmNxm.js": {
+    "file": "assets/components-DA4gmNxm.js",
     "name": "components",
     "imports": [
-      "_web-C4-BupdG.js"
+      "_web-GFwsRR70.js",
+      "_routing-DwVN_A_D.js"
     ]
   },
-  "_index-B7h2nS-V.js": {
-    "file": "assets/index-B7h2nS-V.js",
+  "_index-CsKl_s5C.js": {
+    "file": "assets/index-CsKl_s5C.js",
     "name": "index",
     "imports": [
-      "_web-C4-BupdG.js"
+      "_web-GFwsRR70.js"
     ]
   },
-  "_web-C4-BupdG.js": {
-    "file": "assets/web-C4-BupdG.js",
+  "_routing-DwVN_A_D.js": {
+    "file": "assets/routing-DwVN_A_D.js",
+    "name": "routing",
+    "imports": [
+      "_web-GFwsRR70.js"
+    ]
+  },
+  "_web-GFwsRR70.js": {
+    "file": "assets/web-GFwsRR70.js",
     "name": "web"
   },
   "src/routes/[...404].tsx?pick=default&pick=$css": {
-    "file": "assets/_...404_-CpdxCMpX.js",
+    "file": "assets/_...404_-DlwUhueX.js",
     "name": "_...404_",
     "src": "src/routes/[...404].tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-C4-BupdG.js",
-      "_components-DU66NYLl.js"
+      "_web-GFwsRR70.js",
+      "_components-DA4gmNxm.js",
+      "_routing-DwVN_A_D.js"
     ]
   },
   "src/routes/about.tsx?pick=default&pick=$css": {
-    "file": "assets/about-C3KHFqXu.js",
+    "file": "assets/about-DQV-JTgM.js",
     "name": "about",
     "src": "src/routes/about.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-C4-BupdG.js",
-      "_components-DU66NYLl.js"
+      "_web-GFwsRR70.js",
+      "_components-DA4gmNxm.js",
+      "_routing-DwVN_A_D.js"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-Bx9OTL-R.js",
+    "file": "assets/index-BoW37BoC.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-C4-BupdG.js",
-      "_index-B7h2nS-V.js"
+      "_web-GFwsRR70.js",
+      "_index-CsKl_s5C.js"
+    ]
+  },
+  "src/routes/old.index.tsx?pick=default&pick=$css": {
+    "file": "assets/old.index-CSRCF6C5.js",
+    "name": "old.index",
+    "src": "src/routes/old.index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-GFwsRR70.js",
+      "_index-CsKl_s5C.js"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-f86uwZJq.js",
+    "file": "assets/client-CCX7qE8A.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_web-C4-BupdG.js",
-      "_index-B7h2nS-V.js",
-      "_components-DU66NYLl.js"
+      "_web-GFwsRR70.js",
+      "_index-CsKl_s5C.js",
+      "_routing-DwVN_A_D.js"
     ],
     "dynamicImports": [
       "src/routes/[...404].tsx?pick=default&pick=$css",
       "src/routes/about.tsx?pick=default&pick=$css",
-      "src/routes/index.tsx?pick=default&pick=$css"
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/old.index.tsx?pick=default&pick=$css"
     ],
     "css": [
       "assets/client-BHlXPXtw.css"
