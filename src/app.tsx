@@ -11,7 +11,7 @@ export default function App() {
       <Router
         root={props => (
           <>
-            {/* <Nav /> */}
+            <Nav />
             <Suspense>{props.children}</Suspense>
           </>
         )}
